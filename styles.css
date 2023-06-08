@@ -1,0 +1,13 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: slategrey;
+}
+
+/* this aligns something in the center absoutley */
+#content { 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
